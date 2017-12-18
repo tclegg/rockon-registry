@@ -33,11 +33,12 @@
           "8080": {
             "description": "Port for web panel access. You may need to open it (protocol: tcp/udp) on your firewall.",
             "host_default": 8080,
-            "label": "Web Panel port"
+            "label": "Web Panel port",
+            "ui": true
           }
         },
         "volumes": {
-          "/home/abc/mcmyadmin-data": {
+          "/minecraft": {
             "description": "Choose a Share for the configuration and persistent data.",
             "label": "Config Storage",
             "min_size": 1073741824
