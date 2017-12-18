@@ -34,11 +34,6 @@
             "description": "Port for web panel access. You may need to open it (protocol: tcp/udp) on your firewall.",
             "host_default": 8080,
             "label": "Web Panel port"
-          },
-          "21": {
-            "description": "Port for FTP access",
-            "host_default": 21,
-            "label": "FTP Port"
           }
         },
         "volumes": {
